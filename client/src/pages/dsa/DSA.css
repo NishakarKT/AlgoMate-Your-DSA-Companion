@@ -1,0 +1,212 @@
+.dsa {
+  padding-top: 80px;
+  transition: all 0.5s;
+}
+
+.dsa__time {
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.dsa__time mark {
+  color: black !important;
+  background-color: transparent !important;
+}
+
+.dsa__time > span {
+  font-size: 30px;
+  margin: 0 2.5px;
+  color: #1976d2;
+}
+
+.dsa mark {
+  transition: all 0.5s;
+  background-color: greenyellow;
+}
+
+.dsa__title h1 {
+  position: relative;
+  font-style: italic;
+  color: rgb(49, 49, 49);
+  font-size: 40px;
+  font-weight: 500;
+  width: fit-content;
+  text-align: center;
+  margin-left: 50px;
+  white-space: nowrap;
+  padding-bottom: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.dsa__title h1:before {
+  background-color: lightcoral;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.dsa__title h1:after {
+  background-color: lightcoral;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 40%;
+  margin-bottom: 0.25em;
+}
+
+.dsa__searchBox {
+  display: flex;
+  align-items: flex-end;
+  width: calc(100vw - 100px);
+  margin-left: 50px;
+}
+
+.dsa__searchBox > .dsa__subSearch {
+  display: flex;
+  align-items: flex-end;
+}
+
+.dsa__searchBox > .dsa__subSearch:nth-child(1) {
+  flex: 1;
+}
+
+.dsa__searchBox > .dsa__subSearch > .MuiTextField-root {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.dsa__searchBox > .dsa__subSearch > .MuiTextField-root .MuiInput-root,
+.dsa__searchBox > .dsa__subSearch > .MuiTextField-root .MuiInputLabel-root {
+  font-size: 16px;
+}
+
+.dsa__searchBox > .dsa__subSearch > .MuiFormControl-root {
+  width: 150px;
+}
+
+.dsa__searchBox > .dsa__subSearch > .MuiIconButton-root {
+  color: white;
+  background-color: #002b57;
+  transition: all 0.5s;
+  margin-right: 10px;
+}
+
+.dsa__searchBox > .dsa__subSearch > .MuiIconButton-root:hover {
+  filter: brightness(0.9);
+  background-color: #002b57;
+  transform: scale(0.9);
+}
+
+.dsa__results {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.dsa__results > .searchResult {
+  margin-bottom: 40px;
+}
+
+.dsa__results > .searchResult:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.dsa__results > .MuiPagination-root {
+  margin: auto;
+}
+
+.dsa__noData {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 50px 15px;
+}
+
+.dsa__autocorrect {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.dsa__dark {
+  color: white;
+  background-color: #0a1929;
+}
+
+.dsa__dark h1,
+.dsa__dark .MuiInput-root,
+.dsa__dark .MuiInputLabel-root,
+.dsa__dark .MuiSvgIcon-root,
+.dsa__dark .MuiPaginationItem-root {
+  color: white !important;
+}
+
+.dsa__dark .MuiInput-root::before {
+  border-bottom: 1px solid white !important;
+}
+
+.dsa__dark option {
+  background-color: #0a1929 !important;
+}
+
+.dsa__dark .dsa__time mark {
+  color: white !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .dsa__title h1,
+  .dsa__autocorrect,
+  .dsa__searchBox {
+    margin-left: 15px;
+  }
+  .dsa__results {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .dsa__searchBox {
+    width: calc(100vw - 30px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dsa__searchBox > .dsa__subSearch > .MuiFormControl-root {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .dsa__title h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dsa__searchBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dsa__searchBox > .dsa__subSearch {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .dsa__searchBox > .dsa__subSearch > .MuiFormControl-root {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .dsa__title h1 {
+    font-size: 20px;
+  }
+}

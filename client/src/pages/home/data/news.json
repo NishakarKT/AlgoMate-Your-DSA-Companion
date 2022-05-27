@@ -1,0 +1,39 @@
+[{
+    "date": "16th September, 2022",
+    "title": "The ICFP Competitions",
+    "category": "Upcoming Events",
+    "rating": "4.5",
+    "description": "The International Conference on Functional Programming or ICFP has been held annually since 1998. It is a challenging three-day open programming competition for which there is no entry fee. The enthusiast can participate from any location without any size limit for team formation. The team will be given 72 hours to complete and submit their entry through the internet. The aim of this competition is to showcase the programming languages and tools that the participants admire the most. This is one of the top programming competitions to apply for.",
+    "host": "Nishakar Kumar",
+    "link": "https://icfp22.sigplan.org/",
+    "fileURLs": [
+      "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    ]
+  },
+  {
+    "date": "24th May, 2022",
+    "title": "Microsoft Imagine Cup",
+    "category": "Upcoming Events",
+    "rating": "4.5",
+    "description": "Microsoft Imagine Cup is held annually. The program invites participants to take on real-world problems that are submitted by NGOs, IGOs, and nonprofit organizations that can then take on as part of the Imagine Cup project. The main idea behind conducting such coding competitions and programming competitions is to code with a purpose that can help create new solutions.",
+    "host": "Nishakar Kumar",
+    "link": "https://imaginecup.microsoft.com/en-us/Events",
+    "fileURLs": [
+      "https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80",
+      "https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    ]
+  },
+  {
+    "date": "22nd January, 2022",
+    "title": "Facebook Hack 2022",
+    "category": "Upcoming Events",
+    "rating": "4.5",
+    "description": "FB Hacks are a series of innovative regional events for university students, in which teams with diverse disciplines compete for points across a variety of challenges.",
+    "host": "Nishakar Kumar",
+    "link": "https://www.facebook.com/codingcompetitions/fb-hack",
+    "fileURLs": [
+      "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+    ]
+  }]

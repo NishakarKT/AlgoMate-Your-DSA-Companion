@@ -1,0 +1,46 @@
+.assistant > .MuiFab-root {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  outline: 2px solid white;
+  outline-offset: 2px;
+  transition: all 0.5s;
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.assistant > .MuiFab-root:hover {
+  transform: scale(0.95);
+}
+
+.assistant > .MuiFab-root:focus {
+  animation: assistant__btnClick 0.3s linear 1;
+}
+
+.assistant > .MuiFab-root:active {
+  animation: none;
+}
+
+.assistant > .MuiFab-root:hover .MuiSvgIcon-root {
+  transition: all 0.5s;
+  color: #1976d2;
+}
+
+.assistant > .MuiFab-root > .MuiSvgIcon-root {
+  color: white;
+}
+
+@keyframes assistant__btnClick {
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+}

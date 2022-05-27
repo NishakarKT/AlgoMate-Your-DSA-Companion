@@ -1,0 +1,39 @@
+[{
+    "date": "13th May, 2022",
+    "title": "HTML",
+    "category": "Resources",
+    "rating": "4.5",
+    "description": "What is HTML used for? HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.",
+    "host": "Codeacademy",
+    "link": "https://www.codecademy.com/resources/docs/html",
+    "fileURLs": [
+      "https://henryegloff.com/media/How-to-Develop-a-Basic-Webpage-Using-HTML-and-CSS-Tutorial-2.jpg",
+      "https://cdn.vox-cdn.com/thumbor/PJmI6XyjNCNZH2LE-tMbhKhtH7w=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/3370602/Sir_Tim_Berners-Lee.0.jpg"
+    ]
+  },
+  {
+    "date": "13th May, 2022",
+    "title": "CSS",
+    "category": "Resources",
+    "rating": "4.5",
+    "description": "CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.",
+    "host": "Codeacademy",
+    "link": "https://www.codecademy.com/resources/docs/css",
+    "fileURLs": [
+      "https://www.jotform.com/blog/wp-content/uploads/2008/07/photo-1505685296765-3a2736de412f.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/H%C3%A5kon-Wium-Lie-2009-03.jpg"
+    ]
+  },
+  {
+    "date": "13th May, 2022",
+    "title": "JavaScript",
+    "category": "Resources",
+    "rating": "4.5",
+    "description": "JavaScript is commonly used for creating web pages. It allows us to add dynamic behavior to the webpage and add special effects to the webpage.",
+    "host": "Codeacademy",
+    "link": "https://www.codecademy.com/resources/docs/javascript",
+    "fileURLs": [
+      "https://code.visualstudio.com/assets/docs/languages/javascript/overview.png",
+      "https://www.mooncatchermeme.com/wp-content/uploads/sites/11/2018/04/20120226-brendan-eich-001-e1523881303727.jpg"
+    ]
+  }]

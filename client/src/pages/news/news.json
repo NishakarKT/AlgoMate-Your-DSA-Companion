@@ -1,0 +1,158 @@
+[
+  {
+    "date": "16th September, 2022",
+    "title": "The ICFP Competitions",
+    "category": "Upcoming Events",
+    "rating": "4.5",
+    "description": "The International Conference on Functional Programming or ICFP has been held annually since 1998. It is a challenging three-day open programming competition for which there is no entry fee. The enthusiast can participate from any location without any size limit for team formation. The team will be given 72 hours to complete and submit their entry through the internet. The aim of this competition is to showcase the programming languages and tools that the participants admire the most. This is one of the top programming competitions to apply for.",
+    "host": "Nishakar Kumar",
+    "link": "https://icfp22.sigplan.org/",
+    "fileURLs": [
+      "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    ]
+  },
+  {
+    "date": "24th May, 2022",
+    "title": "Microsoft Imagine Cup",
+    "category": "Upcoming Events",
+    "rating": "4.5",
+    "description": "Microsoft Imagine Cup is held annually. The program invites participants to take on real-world problems that are submitted by NGOs, IGOs, and nonprofit organizations that can then take on as part of the Imagine Cup project. The main idea behind conducting such coding competitions and programming competitions is to code with a purpose that can help create new solutions.",
+    "host": "Nishakar Kumar",
+    "link": "https://imaginecup.microsoft.com/en-us/Events",
+    "fileURLs": [
+      "https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80",
+      "https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    ]
+  },
+  {
+    "date": "22nd January, 2022",
+    "title": "Facebook Hack 2022",
+    "category": "Upcoming Events",
+    "rating": "4.5",
+    "description": "FB Hacks are a series of innovative regional events for university students, in which teams with diverse disciplines compete for points across a variety of challenges.",
+    "host": "Nishakar Kumar",
+    "link": "https://www.facebook.com/codingcompetitions/fb-hack",
+    "fileURLs": [
+      "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Algozenith",
+    "category": "Practice & Learn",
+    "rating": "5",
+    "description": "Curated by experts, Algozenith is a perfect blend of reading Material, videos and practice problems to expedite learning beyond expectations! It includes State-of-the-Art efficient framework for personalized training. Practice live interviews before facing real interviews! Learn tough topics in live sessions directly from experts. See your mentor's code in front of you! Get your concepts checked and learn new techniques while competing with peers.",
+    "host": "Nishakar Kumar",
+    "link": "https://algozenith.com/home",
+    "fileURLs": [
+      "https://algozenith.com/images/logo.png",
+      "https://algozenith.com/assets/img/home/AZ-Feast.webp"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Codeforces",
+    "category": "Practice & Learn",
+    "rating": "4.5",
+    "description": "I noticed long ago, that all the websites about computer programming contests work on Web 1.0 principles. But the 21st century has come, the 30th International Programming Contest took place, and Google celebrated its 10th anniversary. Something has to be done! As Software-as-a-Service is conquering the world, contests administrators are still copying tests into judge systems. Something has to be done! Codeforces' aim is to offer you a convenient platform to organize, run and discuss programming contests. It will be a bit of a social network website, more than a news portal and more than an online judge. Being absolutely independent from me, you will be able to organize and run a contest. You will decide on your own if to make it open to the whole world or if it will be a contest for your University only. And if you're not interested in this, you might discuss the news in the contest world - read/write blogs, discuss topics, and support your dearest and nearest.",
+    "host": "Nishakar Kumar",
+    "link": "https://codeforces.com/blog/entry/1",
+    "fileURLs": [
+      "https://codeforces.org/s/0/images/codeforces-telegram-square.png",
+      "https://i.ytimg.com/vi/97tieEKfvBs/maxresdefault.jpg"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Codechef",
+    "category": "Practice & Learn",
+    "rating": "4",
+    "description": "CodeChef was started in 2009 as an educational initiative for the programming community by Directi, an Indian software products company. Today, CodeChef is one of the world’s largest and popular global competitive programming platforms preferred by student & professional programmers. In 2020, CodeChef was added under the aegis of the Unacademy brand. CodeChef promotes constant learning and friendly programming competitions for its users, along with the support of its large community of problem curators. CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming, and programming contests. It hosts three featured contests every month (Long Challenge, CookOff, LunchTime & Starters) and gives away prizes and goodies to the winners as encouragement. Apart from these, the platform is also open to the entire programming community, especially academic institutes, and student bodies, to host their own contests. Major institutions & corporates across the globe use CodeChef’s platform to host their contests, internal & external coding assessments. On average, 30+ external contests are hosted on CodeChef’s platform every month.",
+    "host": "Nishakar Kumar",
+    "link": "https://www.codechef.com/",
+    "fileURLs": [
+      "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Codechef%28new%29_logo.svg/1200px-Codechef%28new%29_logo.svg.png",
+      "https://media.geeksforgeeks.org/wp-content/uploads/20200328180309/ccvb.jpg"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "HackerRank",
+    "category": "Practice & Learn",
+    "rating": "4",
+    "description": "The journey to HackerRank first began in July 2009, when computer science graduates Vivek and Hari worked at Amazon and IBM (respectively) for about a year in Bangalore. Both were on interview panels, inundated with endless hours of resume reviews, phone screens, and onsite interviews. Unqualified people were making it to the onsite, while some of their most capable, hardworking friends were passed on because of their GPA or lack of a prestigious degree. That’s when they noticed a massive problem—and opportunity—in the technical recruiting system. They quit their jobs to build InterviewStreet, a website that matched mentors with students. Within a few weeks, hundreds of students signed up across a dozen universities. They received their first cheque for 413.62 INR ($5.68). A copy exists in the Bangalore office and underneath, it says “Humble Beginnings.”",
+    "host": "Nishakar Kumar",
+    "link": "https://www.hackerrank.com/",
+    "fileURLs": [
+      "https://developerpitstop.com/wp-content/uploads/2021/09/hackerank-logo.png",
+      "https://www.hackerrank.com/wp-content/uploads/2020/12/hackerrank_interviewing_share.png"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Leetcode",
+    "category": "Practice & Learn",
+    "rating": "4",
+    "description": "LeetCode is one of the most well-known online judge platforms that you can use to practice your programming skills by solving coding questions. It has over 1,100 different problems, support for over 18 programming languages, and an active community that is always there to help you with the solutions you come up with. If your intention is to hone your coding skills, then this online judge platform is one of the best that you can use.",
+    "host": "Nishakar Kumar",
+    "link": "https://leetcode.com/",
+    "fileURLs": [
+      "https://www.yoreoyster.com/wp-content/uploads/2021/06/LeetCode-Review.png",
+      "https://miro.medium.com/max/600/1*Qf76NP2wXuaauriSugJciQ.png"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Codeacademy",
+    "category": "Practice & Learn",
+    "rating": "4.5",
+    "description": "Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python (pandas-Python library, Beautiful Soup-Python Library), Java, Go, JavaScript (jQuery, AngularJS, React.js), Ruby (Ruby on Rails-Ruby framework), SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS.",
+    "host": "Nishakar Kumar",
+    "link": "https://www.codecademy.com/",
+    "fileURLs": [
+      "https://pentagram-production.imgix.net/1cbbfce1-48d5-4257-95e5-745c10e6492e/eo_codecademy_01.jpg?crop=edges&fit=crop&h=630&rect=375%2C0%2C2256%2C1412&w=1200",
+      "https://i.pcmag.com/imagery/reviews/05XBKmNFYeHCMIn726Nohqb-8.fit_lim.size_1050x.png"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Dennis Ritchie",
+    "category": "Did You Know?",
+    "rating": "4",
+    "description": "Dennis Ritchie was born in Bronxville, New York. His father was Alistair E. Ritchie, a longtime Bell Labs scientist and co-author of The Design of Switching Circuits on switching circuit theory. As a child, Dennis moved with his family to Summit, New Jersey, where he graduated from Summit High School. He graduated from Harvard University with degrees in physics and applied mathematics. Ritchie is best known as the creator of the C programming language, a key developer of the Unix operating system, and co-author of the book The C Programming Language; he was the 'R' in K&R (a common reference to the book's authors Kernighan and Ritchie). Ritchie worked together with Ken Thompson, who is credited with writing the original version of Unix; one of Ritchie's most important contributions to Unix was its porting to different machines and platforms. They were so influential on Research Unix that Doug McIlroy later wrote, The names of Ritchie and Thompson may safely be assumed to be attached to almost everything not otherwise attributed.",
+    "host": "Nishakar Kumar",
+    "link": "https://en.wikipedia.org/wiki/Dennis_Ritchie",
+    "fileURLs": [
+      "https://media.wired.com/photos/59327f14f682204f73696455/master/pass/ritchie_HP.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Dennis_Ritchie_2011.jpg/330px-Dennis_Ritchie_2011.jpg"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Bjarne Stroustrup",
+    "category": "Did You Know?",
+    "rating": "4",
+    "description": "Stroustrup is best known for his work on C++. In 1979, he began developing C++ (initially called \"with Classes\"). In his own words, he \"invented C++, wrote its early definitions, and produced its first implementation. He chose and formulated the design criteria for C++, designed all its major facilities, and was responsible for the processing of extension proposals in the C++ standards committee.\" C++ was made generally available in 1985. For non-commercial use, the source code of the compiler and the foundation libraries was the cost of shipping (US$75); this was before Internet access was common. Stroustrup also published a textbook for the language in 1985, The C++ Programming Language.",
+    "host": "Nishakar Kumar",
+    "link": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup",
+    "fileURLs": [
+      "https://www.uib.no/sites/w3.uib.no/files/styles/content_main/public/media/bjarne-bldl-opening.jpg?itok=ANk5d3Bq&timestamp=1579195494",
+      "http://worldkings.org/Userfiles/Upload/images/18w.jpg"
+    ]
+  },
+  {
+    "date": "3rd May, 2022",
+    "title": "Linus Torvalds",
+    "category": "Did You Know?",
+    "rating": "4",
+    "description": "The first Linux prototypes were publicly released later in 1991. Version 1.0 was released on 14 March 1994, Torvalds first encountered the GNU Project in 1991 when another Swedish-speaking computer science student, Lars Wirzenius, took him to the University of Technology to listen to free software guru Richard Stallman's speech. Torvalds used Stallman's GNU General Public License version 2 (GPLv2) for his Linux kernel. After a visit to Transmeta in late 1996, Torvalds accepted a position at the company in California, where he worked from February 1997 to June 2003. He then moved to the Open Source Development Labs, which has since merged with the Free Standards Group to become the Linux Foundation, under whose auspices he continues to work. In June 2004, Torvalds and his family moved to Dunthorpe, Oregon to be closer to the OSDL's headquarters in Beaverton. From 1997 to 1999, he was involved in 86open, helping select the standard binary format for Linux and Unix. In 1999, he was named by the MIT Technology Review TR100 as one of the world's top 100 innovators under age 35. In 1999, Red Hat and VA Linux, both leading developers of Linux-based software, presented Torvalds with stock options in gratitude for his creation. That year both companies went public and Torvalds's share value briefly shot up to about US$20 million. His personal mascot is a penguin nicknamed Tux, which has been widely adopted by the Linux community as the Linux kernel's mascot. Although Torvalds believes \"open source is the only right way to do software\", he also has said that he uses the \"best tool for the job\", even if that includes proprietary software. He was criticized for his use and alleged advocacy of the proprietary BitKeeper software for version control in the Linux kernel. He subsequently wrote a free-software replacement for it called Git.",
+    "host": "Nishakar Kumar",
+    "link": "https://en.wikipedia.org/wiki/Linus_Torvalds",
+    "fileURLs": [
+      "https://cdn.britannica.com/99/124299-050-4B4D509F/Linus-Torvalds-2012.jpg?w=400&h=300&c=crop",
+      "https://media.newyorker.com/photos/5ba177da9eb2f7420aadeb98/master/pass/Cohen-Linus-Torvalds.jpg"
+    ]
+  }
+]

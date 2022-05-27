@@ -1,0 +1,125 @@
+.gridCard {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  padding-bottom: 50px;
+  animation: gridCard__appear 0.5s ease-out 1 forwards;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.gridCard__content {
+  position: relative;
+  padding: 10px;
+}
+
+.gridCard__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.gridCard__category {
+  font-size: 15px;
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.gridCard__date {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+}
+
+.gridCard__content > .MuiRating-root {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.gridCard__description {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.gridCard__host {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+}
+
+.gridCard__link {
+  font-weight: 500;
+  color: #1974ec;
+  cursor: pointer;
+}
+
+.gridCard__link:hover {
+  text-decoration: underline;
+}
+
+.gridCard > .MuiButton-root {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  width: calc(100% - 10px);
+  text-transform: none;
+  color: white;
+  background-color: #1974ec;
+  transition: all 0.5s;
+  margin: 5px;
+}
+
+.gridCard > .MuiButton-root:hover {
+  filter: brightness(80%);
+}
+
+.gridCard__shapeDivider {
+  position: absolute;
+  top: 226px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+}
+
+.gridCard__shapeDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.gridCard__shapeDivider .shape-fill {
+  fill: #ffffff;
+}
+
+.gridCard__dark {
+  box-shadow: black 0px 5px 15px;
+}
+
+.gridCard__dark .MuiRating-decimal {
+  color: white;
+}
+
+.gridCard__dark .gridCard__content,
+.gridCard__dark .gridCard__shapeDivider .shape-fill {
+  background-color: #001e3c !important;
+  fill: #001e3c !important;
+}
+
+@keyframes gridCard__appear {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
