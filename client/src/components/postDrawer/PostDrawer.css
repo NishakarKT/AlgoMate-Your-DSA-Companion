@@ -1,0 +1,155 @@
+.postDrawer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.postDrawer pre {
+  font-family: "Roboto", cursive;
+  white-space: pre-wrap;
+}
+
+.postDrawer > .mediaSlider {
+  flex: 1;
+  height: 100vh;
+}
+
+.postDrawer > .postDrawer__content {
+  position: relative;
+  flex: 1;
+  height: 100vh;
+  padding: 15px;
+}
+
+.postDrawer__closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px !important;
+  cursor: pointer;
+  color: red;
+  transition: all 0.5s !important;
+}
+
+.postDrawer__closeBtn:hover {
+  filter: brightness(80%);
+  transform: scale(0.9);
+}
+
+.postDrawer__content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.postDrawer__content::-webkit-scrollbar {
+  display: none;
+}
+
+.postDrawer__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.postDrawer__date {
+  color: grey;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.postDrawer__category {
+  color: grey;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.postDrawer__description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.postDrawer__host {
+  color: grey;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.postDrawer__sampleInput,
+.postDrawer__sampleOutput {
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.postDrawer__sampleInput b,
+.postDrawer__sampleOutput b {
+  color: teal;
+}
+
+.postDrawer__tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.postDrawer__tags > b {
+  color: teal;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.postDrawer__tag {
+  column-rule: black;
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.postDrawer__tag:hover {
+  filter: brightness(80%);
+}
+
+.postDrawer__sectionTitle {
+  margin-top: 5px;
+  color: teal;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.postDrawer__link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1976d2;
+  cursor: pointer;
+  margin-bottom: 5px;
+  word-break: break-all;
+}
+
+.postDrawer__link:hover {
+  text-decoration: underline;
+}
+
+.postDrawer__dark {
+  color: white !important;
+  background-color: #0a1929;
+}
+
+.postDrawer__dark h1,
+.postDrawer__dark span {
+  color: white !important;
+}
+
+.postDrawer__dark .postDrawer__tag {
+  background-color: #114276;
+}
+
+@media only screen and (max-width: 600px) {
+  .postDrawer > .mediaSlider {
+    display: none;
+  }
+}

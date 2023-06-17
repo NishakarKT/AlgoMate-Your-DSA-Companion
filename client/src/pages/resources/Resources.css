@@ -1,0 +1,135 @@
+.resources {
+  padding-top: 100px;
+  transition: all 0.5s;
+}
+
+.resources__data {
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.resources__data > h1 {
+  color: #313131;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.resources__data > h2 {
+  color: #313131;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resources__data > pre {
+  font-family: "Roboto", cursive;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.resources__head {
+  display: flex;
+  align-items: center;
+}
+
+.resources__select {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  align-self: center;
+}
+
+.resources__select > .MuiFormControl-root {
+  flex: 1;
+}
+
+.resources__select > .MuiFormControl-root:nth-child(1) {
+  margin-right: 10px;
+}
+
+.resources__title h1 {
+  position: relative;
+  font-style: italic;
+  color: rgb(49, 49, 49);
+  font-size: 40px;
+  font-weight: 500;
+  width: fit-content;
+  text-align: center;
+  margin-left: 50px;
+  white-space: nowrap;
+  padding-bottom: 13px;
+}
+
+.resources__title h1:before {
+  background-color: lightcoral;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.resources__title h1:after {
+  background-color: lightcoral;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 40%;
+  margin-bottom: 0.25em;
+}
+
+.resources__dark {
+  color: white;
+  background-color: #0a1929;
+}
+
+.resources__dark h1,
+.resources__dark h2,
+.resources__dark .MuiInput-root,
+.resources__dark .MuiSvgIcon-root,
+.resources__dark .MuiInputLabel-root {
+  color: white !important;
+}
+
+.resources__dark .MuiInput-root::before {
+  border-bottom: 1px solid white !important;
+}
+
+.MuiPopover-paper {
+  color: white;
+  background-color: #0a1929 !important;
+}
+@media only screen and (max-width: 750px) {
+  .resources__title h1 {
+    margin-left: 15px;
+  }
+  .resources__select {
+    padding: 0 15px;
+  }
+
+  .resources__data {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .resources__head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .resources__select {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .resources__title h1 {
+    font-size: 30px;
+  }
+  .resources__data > h1 {
+    font-size: 25px;
+  }
+}

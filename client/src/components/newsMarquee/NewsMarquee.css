@@ -1,0 +1,23 @@
+.newsMarquee {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  color: white;
+  background-color: #00122b;
+  z-index: 1;
+  padding: 10px 0;
+  z-index: 2;
+}
+
+.newsMarquee__text {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+}
+
+.newsMarquee__separator {
+  object-fit: contain;
+  width: 15px;
+  margin: 0 10px;
+}

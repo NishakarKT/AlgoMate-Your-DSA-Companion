@@ -1,0 +1,357 @@
+.signIn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+  background-color: white;
+  scroll-behavior: smooth;
+  transition: all 0.5s;
+}
+
+.signIn__logoContainer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.signIn__logo {
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.signIn__title {
+  font-weight: 500;
+  color: white;
+}
+
+.signIn__title > p:nth-child(1) {
+  font-size: 25px;
+}
+
+.signIn__title > p:nth-child(2) {
+  font-size: 15px;
+}
+
+.signIn__copyright {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: white;
+  font-size: 15px;
+  z-index: 0;
+}
+
+.signIn__left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1.75;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #002b57;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.signIn__left > .MuiIconButton-root {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  outline: 2px solid white;
+  outline-offset: 2px;
+  transition: all 0.5s;
+  animation: signIn__btnEffect 2.5s ease-out infinite;
+}
+
+.signIn__left > .MuiIconButton-root:hover {
+  background-color: #0c6cfa;
+}
+
+.signIn__left > .MuiIconButton-root > .MuiSvgIcon-root {
+  color: #0c6cfa;
+  transition: all 0.5s;
+}
+
+.signIn__left > .MuiIconButton-root:hover > .MuiSvgIcon-root {
+  color: white;
+}
+
+.signIn__bg {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  height: calc(100% + 120px);
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.signIn__welcome {
+  width: 90%;
+  color: white;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.signIn__welcome > h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.signIn__welcome > p:nth-child(2) {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.signIn__welcome > p:nth-child(3) {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.signIn__buttons > .MuiButton-root {
+  color: #0c6cfa;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  padding: 5px;
+  padding-right: 10px;
+  transition: all 0.5s;
+}
+
+.signIn__buttons > .MuiButton-root > .MuiSvgIcon-root {
+  transition: all 0.5s;
+  margin-right: 5px;
+}
+
+.signIn__buttons > .MuiButton-root:hover {
+  color: white;
+  background-color: #0c6cfa;
+  transform: translateY(5px);
+}
+
+.signIn__buttons > .MuiButton-root:nth-child(1) {
+  margin-right: 7.5px;
+}
+
+.signIn__right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: rgb(100, 100, 100);
+}
+
+.signIn__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.signIn__formInfo {
+  width: 100%;
+}
+
+.signIn__formInfo > h1 {
+  color: #0c6cfa;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.signIn__formInfo > h1 > .MuiSvgIcon-root {
+  font-size: 40px;
+  margin-right: 10px;
+  color: white;
+  background-color: #0c6cfa;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.signIn__formInfo > p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.signIn__formInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signIn__formInput > .MuiTextField-root {
+  margin-bottom: 10px;
+}
+
+.signIn__formInput > .MuiTextField-root input {
+  color: rgb(50, 50, 50);
+}
+
+.signIn__formOptions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signIn__remMe {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.signIn__remMe > .MuiCheckbox-root {
+  padding: 5px;
+  padding-left: 0;
+  color: #0c6cfa;
+}
+
+.signIn__forgotPass:hover {
+  text-decoration: underline;
+}
+
+.signIn__form > .MuiButton-root {
+  color: white;
+  background-color: #0c6cfa;
+  text-transform: none;
+  transition: all 0.5s;
+  font-size: 16px;
+}
+
+.signIn__form > .MuiButton-root:hover {
+  background-color: #0c6cfa;
+  filter: brightness(80%);
+}
+
+.signIn__form > .MuiButton-root > .MuiSvgIcon-root {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.signIn__loginInfo {
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.signIn__social {
+  position: absolute;
+  bottom: 10px;
+}
+
+.signIn__social > .MuiSvgIcon-root {
+  font-size: 35px;
+  margin: 0 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.signIn__social > .MuiSvgIcon-root:hover {
+  filter: brightness(80%);
+  transform: scale(1.05) translateY(5px);
+}
+
+.signIn__social > .MuiSvgIcon-root:nth-child(1) {
+  color: white;
+  background-color: #395498;
+}
+
+.signIn__social > .MuiSvgIcon-root:nth-child(2) {
+  color: white;
+  background-color: #0077b5;
+  padding: 5px;
+}
+
+.signIn__social > .MuiSvgIcon-root:nth-child(3) {
+  color: white;
+  background-color: #fe0000;
+}
+
+.signIn__social > .MuiSvgIcon-root:nth-child(4) {
+  color: white;
+  background-color: black;
+}
+
+.signIn__date {
+  font-weight: 500;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.signIn__dark {
+  color: white;
+  background-color: #0a1929;
+}
+
+.signIn__dark h1,
+.signIn__dark .MuiInput-root input,
+.signIn__dark .MuiInputLabel-root,
+.signIn__dark .MuiSvgIcon-root {
+  color: white !important;
+}
+
+.signIn__dark .MuiInput-root::before {
+  border-bottom: 1px solid white !important;
+}
+
+.signIn__dark .signIn__buttons > .MuiButton-root .MuiSvgIcon-root,
+.signIn__dark .MuiIconButton-root > .MuiSvgIcon-root {
+  color: #0c6cfa !important;
+}
+
+.signIn__dark .signIn__buttons > .MuiButton-root:hover .MuiSvgIcon-root,
+.signIn__dark .MuiIconButton-root:hover > .MuiSvgIcon-root {
+  color: white !important;
+}
+
+@keyframes signIn__btnEffect {
+  100% {
+    outline-color: transparent;
+    outline-offset: 15px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .signIn {
+    display: block;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .signIn::-webkit-scrollbar {
+    display: none;
+  }
+  .signIn__left {
+    display: none;
+  }
+  .signIn__right {
+    height: 100vh;
+  }
+}

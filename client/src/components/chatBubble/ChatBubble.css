@@ -1,0 +1,64 @@
+.chatBubble {
+  max-width: 80%;
+  width: fit-content;
+  min-width: 150px;
+  position: relative;
+  border-radius: 10px;
+  padding: 8px;
+  padding-bottom: 25px;
+  margin: 0 20px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: chatBubble__appear 0.2s linear 1;
+}
+
+.chatBubble:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  bottom: 0px;
+}
+
+.chatBubble__left {
+  color: rgb(65, 0, 0);
+  background-color: rgb(255, 213, 219);
+}
+
+.chatBubble__right {
+  align-self: flex-end;
+  text-align: right;
+  color: rgb(0, 65, 65);
+  background: hsl(163, 100%, 87%);
+}
+
+.chatBubble__left:after {
+  left: -10px;
+  border-bottom-color: lightpink; /* arrow color */
+}
+
+.chatBubble__right:after {
+  right: -10px;
+  border-bottom-color: #96cabb; /* arrow color */
+}
+
+.chatBubble__content {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.chatBubble__date {
+  position: absolute;
+  bottom: 5px;
+  font-size: 10px;
+}
+
+@keyframes chatBubble__appear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

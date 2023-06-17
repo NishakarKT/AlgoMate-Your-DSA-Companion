@@ -1,0 +1,28 @@
+{
+  "name": "az",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexs.js",
+  "type": "module",
+  "dependencies": {
+    "autocorrect": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "javascript-lemmatizer": "0.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "keyword-extractor": "0.0.21",
+    "mongoose": "^6.3.1",
+    "nodemailer": "^6.7.4",
+    "stopword": "^2.0.2",
+    "wink-lemmatizer": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --experimental-json-modules --max_old_space_size=512 index.js",
+    "dev": "nodemon --experimental-json-modules --max_old_space_size=512 index.js"
+  },
+  "author": "Nishakar Kumar",
+  "license": "ISC"
+}

@@ -1,0 +1,293 @@
+.about {
+  padding-top: 80px;
+  transition: all 0.5s;
+}
+
+.about__me {
+  position: absolute;
+  top: -400px;
+  left: 0;
+  width: 100vw;
+  height: calc(50vh + 400px);
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.2);
+  opacity: 0.75;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.about > p {
+  font-size: 16px;
+  margin: 0 50px;
+}
+
+.about__skill {
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about__skill h1 {
+  color: #313131;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.about__skill p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.about__skill > div {
+  padding-right: 50px;
+}
+
+.about__skill > img {
+  width: 100vw;
+  max-width: 350px;
+  object-fit: contain;
+}
+
+.about__skillL {
+  flex-direction: row-reverse;
+}
+
+.about__skillL > div {
+  padding: 0;
+  padding-left: 50px;
+  flex-direction: row-reverse;
+}
+
+.about__map {
+  flex: 1;
+  height: 300px;
+  border: 0;
+  margin: 20px 0;
+  margin-left: 50px;
+}
+
+.about__typewriter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: calc(50vh + 50px);
+}
+
+.about__typewriter h1 {
+  color: white;
+  width: 0;
+  font-size: 60px;
+  font-weight: 500;
+  max-width: fit-content;
+  font-family: "VT323", monospace;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  animation: about__typing 7.5s steps(40, end) forwards,
+    about__blink-caret 0.75s step-end infinite;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+.about__title h1 {
+  position: relative;
+  font-style: italic;
+  color: rgb(49, 49, 49);
+  font-size: 40px;
+  font-weight: 500;
+  width: fit-content;
+  text-align: center;
+  margin-left: 50px;
+  white-space: nowrap;
+  padding-bottom: 13px;
+  margin-top: -20px;
+  margin-top: 50px;
+}
+.about__title h1:before {
+  background-color: lightcoral;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-bottom: 5px;
+}
+.about__title h1:after {
+  background-color: lightcoral;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 40%;
+  margin-bottom: 0.25em;
+}
+
+.about__contactForm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__contactForm > div {
+  width: 100%;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.about__contactForm > div > .MuiTextField-root {
+  flex: 1;
+}
+
+.about__contactForm textarea {
+  border: 1.5px solid #949494;
+  outline: none;
+  max-width: calc(100% - 40px);
+  min-width: calc(100% - 40px);
+  margin: 10px 50px;
+  min-height: 100px;
+  font-family: "Roboto", cursive;
+  padding: 10px;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+.about__contactForm textarea:focus {
+  border-color: #0c6cfa;
+}
+
+.about__contactForm > div > .MuiTextField-root:nth-child(1) {
+  margin-right: 5px;
+}
+
+.about__contactBtns > .MuiButton-root:hover {
+  filter: brightness(80%);
+  transform: translateY(0) !important;
+}
+
+.about__contactBtns > .MuiButton-root:nth-child(1) {
+  margin-right: 10px;
+}
+
+.about__contactContainer {
+  display: flex;
+}
+
+.about__dark {
+  color: white;
+  background-color: #0a1929;
+}
+
+.about__dark h1,
+.about__dark .MuiInput-root,
+.about__dark .MuiInputLabel-root,
+.about__dark .MuiSvgIcon-root,
+.about__dark .MuiPaginationItem-root {
+  color: white !important;
+}
+
+.about__dark .MuiInput-root::before {
+  border-bottom: 1px solid white !important;
+}
+
+.about__dark textarea {
+  color: white;
+  background-color: #0a1929 !important;
+}
+
+.about__dark .about__contactBtns .MuiButton-root:nth-child(2) .MuiSvgIcon-root {
+  color: black !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .about__skill > div {
+    padding: 0;
+  }
+  .about__skill img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .about__title h1 {
+    margin-left: 15px;
+  }
+  .about > p,
+  .about__skill > p {
+    margin: 0 15px;
+  }
+  .about__skill {
+    margin: 0 15px;
+  }
+  .about__contactContainer {
+    flex-direction: column-reverse;
+  }
+  .about__map {
+    width: calc(100vw - 30px);
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about__introGif {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .about__typewriter h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .about__typewriter h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .about__typewriter h1 {
+    font-size: 30px;
+  }
+  .about__title h1 {
+    font-size: 30px;
+  }
+  .about__skill h1 {
+    font-size: 25px;
+  }
+}
+
+@keyframes about__typing {
+  0% {
+    width: 0;
+  }
+  45% {
+    width: 100%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes about__blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
