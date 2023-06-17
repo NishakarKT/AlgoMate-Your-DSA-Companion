@@ -1,5 +1,5 @@
-const BASE = "https://algomate-az.onrender.com";
-// const BASE = "http://localhost:8000";
+// const BASE = "https://algomate-az.onrender.com";
+const BASE = "http://localhost:8000";
 // Auth Endpoints
 export const AUTH_GENERATE_OTP_ENDPOINT = BASE + "/auth/generate_otp";
 export const AUTH_VERIFY_OTP_ENDPOINT = BASE + "/auth/verify_otp";
