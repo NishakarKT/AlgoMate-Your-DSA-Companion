@@ -3,16 +3,21 @@ import Autocorrect from "autocorrect";
 import lemmatizer from "wink-lemmatizer";
 import keyword_extractor from "keyword-extractor";
 import { performance } from "perf_hooks";
+import { fileURLToPath } from "url";
+import path from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // import idToData from "../data/idToData.json" assert { type: "json" };
 // import IDF from "../data/IDF.json" assert { type: "json" };
 // import TF_IDF from "../data/TF_IDF.json" assert { type: "json" };
 // import BM25 from "../data/BM25.json" assert { type: "json" };
 
-export const idToData = JSON.parse(readFileSync("data/idToData.json"));
-export const IDF = JSON.parse(readFileSync("data/IDF.json"));
-export const TF_IDF = JSON.parse(readFileSync("data/TF_IDF.json"));
-export const BM25 = JSON.parse(readFileSync("data/BM25.json"));
+export const idToData = JSON.parse(readFileSync(path.resolve(__dirname, "../data/idToData.json")));
+export const IDF = JSON.parse(readFileSync(path.resolve(__dirname, "../data/IDF.json")));
+export const TF_IDF = JSON.parse(readFileSync(path.resolve(__dirname, "../data/TF_IDF.json")));
+export const BM25 = JSON.parse(readFileSync(path.resolve(__dirname, "../data/BM25.json")));
 
 const rectify = Autocorrect();
 
@@ -53,14 +58,14 @@ export const findResults_bm25 = (search, autocorrect, filter, page, limit) => {
     scores[id] = bm25;
   });
   const results = Object.keys(scores)
-  .sort((a, b) => {
-    if (!scores[a]) return 1;
-    else if (!scores[b]) return -1;
-    else return scores[b] - scores[a];
-  })
-  .filter((id) => (filter === "all" ? true : idToData[id].platform.toLowerCase() === filter.toLowerCase()))
-  .slice(0, 50)
-  .map((id) => idToData[id]);
+    .sort((a, b) => {
+      if (!scores[a]) return 1;
+      else if (!scores[b]) return -1;
+      else return scores[b] - scores[a];
+    })
+    .filter((id) => (filter === "all" ? true : idToData[id].platform.toLowerCase() === filter.toLowerCase()))
+    .slice(0, 50)
+    .map((id) => idToData[id]);
   const endTime = performance.now();
   return { data: results.slice((page - 1) * limit, page * limit), time: endTime - startTime, count: results.length };
 };
@@ -90,14 +95,14 @@ export const findResults_tfIdf = (search, autocorrect, filter, page, limit) => {
     similarity[id] = sim;
   });
   const results = Object.keys(similarity)
-  .sort((a, b) => {
-    if (!similarity[a]) return 1;
-    else if (!similarity[b]) return -1;
-    else return similarity[b] - similarity[a];
-  })
-  .filter((id) => (filter === "all" ? true : idToData[id].platform.toLowerCase() === filter.toLowerCase()))
-  .slice(0, 50)
-  .map((id) => idToData[id]);
+    .sort((a, b) => {
+      if (!similarity[a]) return 1;
+      else if (!similarity[b]) return -1;
+      else return similarity[b] - similarity[a];
+    })
+    .filter((id) => (filter === "all" ? true : idToData[id].platform.toLowerCase() === filter.toLowerCase()))
+    .slice(0, 50)
+    .map((id) => idToData[id]);
   const endTime = performance.now();
   return { data: results.slice((page - 1) * limit, page * limit), time: endTime - startTime, count: results.length };
 };
